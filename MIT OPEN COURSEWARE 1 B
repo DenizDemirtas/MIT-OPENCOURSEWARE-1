@@ -1,0 +1,14 @@
+for a in range(1,4535345):
+ print(" Test Case {}". format(a))
+ print(">>>>>")
+ annual_sallary_calc = (annual_sallary * semi_annual_raise) + annual_sallary 
+
+ annual_sallary = int(input("Enter Your Annual Salary: "))
+ portion_saved = float(input("Enter the percent of your salary to save, as a decimal: "))
+ total_cost= int(input("Enter the cost of your dream home: "))
+ semi_annual_raise = float(input("Enter the semi­annual raise, as a decimal:"))
+ if annual_sallary%6 == 0:
+   annual_sallary_calc = (annual_sallary * semi_annual_raise) + annual_sallary 
+
+ months = (total_cost / (annual_sallary_calc*portion_saved))
+ print("Number of months: ", months)
